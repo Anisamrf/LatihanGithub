@@ -16,5 +16,25 @@ namespace LatihanGithub
         {
             InitializeComponent();
         }
+
+        private void FormSiswa_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTelepon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblAlamat_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tanggallahir_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
