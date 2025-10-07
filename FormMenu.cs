@@ -16,5 +16,10 @@ namespace LatihanGithub
         {
             InitializeComponent();
         }
+
+        private void siswaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
