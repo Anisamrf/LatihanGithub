@@ -1,4 +1,4 @@
-Anggota:
+Kelompok 6:
 Anisa Maa'rifatulloh Nurqori'ah,
 Nisa Aulia Fitriani,
 Dechya Lia Litami,
