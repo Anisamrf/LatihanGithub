@@ -59,8 +59,9 @@
             // siswaToolStripMenuItem
             // 
             this.siswaToolStripMenuItem.Name = "siswaToolStripMenuItem";
-            this.siswaToolStripMenuItem.Size = new System.Drawing.Size(158, 34);
+            this.siswaToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.siswaToolStripMenuItem.Text = "Siswa";
+            this.siswaToolStripMenuItem.Click += new System.EventHandler(this.siswaToolStripMenuItem_Click_1);
             // 
             // exitToolStripMenuItem
             // 
