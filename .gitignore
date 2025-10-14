@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/FormMenu.cs
+/FormMenu.Designer.cs
+/FormMenu.resx
