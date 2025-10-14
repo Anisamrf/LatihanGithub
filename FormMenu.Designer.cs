@@ -59,7 +59,7 @@
             // siswaToolStripMenuItem
             // 
             this.siswaToolStripMenuItem.Name = "siswaToolStripMenuItem";
-            this.siswaToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.siswaToolStripMenuItem.Size = new System.Drawing.Size(158, 34);
             this.siswaToolStripMenuItem.Text = "Siswa";
             // 
             // exitToolStripMenuItem
@@ -77,6 +77,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormMenu";
             this.Text = "FormMenu";
+            this.Load += new System.EventHandler(this.FormMenu_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
