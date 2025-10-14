@@ -31,8 +31,8 @@
             this.lblUsrname = new System.Windows.Forms.Label();
             this.lblPassword = new System.Windows.Forms.Label();
             this.txtUsername = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.btnSimpan = new System.Windows.Forms.Button();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -62,21 +62,22 @@
             this.txtUsername.Size = new System.Drawing.Size(273, 26);
             this.txtUsername.TabIndex = 2;
             // 
-            // textBox2
+            // txtPassword
             // 
-            this.textBox2.Location = new System.Drawing.Point(150, 110);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(273, 26);
-            this.textBox2.TabIndex = 3;
+            this.txtPassword.Location = new System.Drawing.Point(150, 110);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(273, 26);
+            this.txtPassword.TabIndex = 3;
             // 
-            // btnSimpan
+            // btnLogin
             // 
-            this.btnSimpan.Location = new System.Drawing.Point(150, 168);
-            this.btnSimpan.Name = "btnSimpan";
-            this.btnSimpan.Size = new System.Drawing.Size(75, 32);
-            this.btnSimpan.TabIndex = 4;
-            this.btnSimpan.Text = "Simpan";
-            this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnLogin.Location = new System.Drawing.Point(150, 168);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(75, 32);
+            this.btnLogin.TabIndex = 4;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnCancel
             // 
@@ -86,6 +87,7 @@
             this.btnCancel.TabIndex = 5;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // FormLogin
             // 
@@ -94,8 +96,8 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(555, 317);
             this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnSimpan);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblUsrname);
@@ -112,8 +114,8 @@
         private System.Windows.Forms.Label lblUsrname;
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.TextBox txtUsername;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button btnSimpan;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnCancel;
     }
 }
