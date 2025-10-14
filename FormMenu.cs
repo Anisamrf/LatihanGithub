@@ -26,5 +26,12 @@ namespace LatihanGithub
         {
 
         }
+
+        private void siswaToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            FormLogin f = new FormLogin();
+            f.ShowDialog();
+            this.Hide();    
+        }
     }
 }
